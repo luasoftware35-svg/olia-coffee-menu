@@ -1,0 +1,2325 @@
+{
+  "restaurant": "olia",
+  "currency": "TRY",
+  "currencySymbol": "₺",
+  "priceFormat": "tr-TR, tam sayı (örn. 1.250 ₺)",
+  "lastUpdated": "2026-11-19",
+  "itemCount": 226,
+  "categories": [
+    {
+      "id": "kahvaltiliklar",
+      "name": "Kahvaltılıklar",
+      "note": null,
+      "order": 1,
+      "image": "/images/stok-kahvalti.webp",
+      "items": [
+        {
+          "id": "kahvaltiliklar--serpme-kahvalti",
+          "name": "Serpme Kahvaltı",
+          "description": "4 çeşit peynir, 2 çeşit zeytin, bal, tereyağı, süt reçeli, kayısı reçeli, vişne reçeli, simit tava, kaşarlı omlet, domates, salatalık, biber kızartma, patlıcan kızartma, patates kızartma, sigara böreği, sosis, saralle, yoğurt, tahin-pekmez, menemen, sahanda kavurmalı yumurta, pişi",
+          "price": 800,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kahvaltiliklar--tekli-kahvalti",
+          "name": "Tekli Kahvaltı",
+          "description": "2 çeşit peynir, 2 çeşit zeytin, bal-tereyağı, domates, salatalık, biber kızartma, sigara böreği, patates kızartma, sosis, kaşarlı omlet",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "omletler",
+      "name": "Omletler",
+      "note": "Söğüş ile",
+      "order": 2,
+      "image": "/images/stok-omlet.webp",
+      "items": [
+        {
+          "id": "omletler--sahanda-kavurmali-omlet",
+          "name": "Sahanda Kavurmalı Omlet",
+          "description": "Söğüş ile",
+          "price": 250,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "omletler--sahanda-sucuklu-omlet",
+          "name": "Sahanda Sucuklu Omlet",
+          "description": "Söğüş ile",
+          "price": 160,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "omletler--sahanda-kasarli-omlet",
+          "name": "Sahanda Kaşarlı Omlet",
+          "description": "Söğüş ile",
+          "price": 160,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "menemenler",
+      "name": "Menemenler",
+      "note": null,
+      "order": 3,
+      "image": "/images/stok-menemen.webp",
+      "items": [
+        {
+          "id": "menemenler--karisik-menemen",
+          "name": "Karışık Menemen",
+          "description": "Sucuklu, kaşarlı",
+          "price": 230,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "menemenler--kasarli-menemen",
+          "name": "Kaşarlı Menemen",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "menemenler--kavurmali-menemen",
+          "name": "Kavurmalı Menemen",
+          "description": null,
+          "price": 270,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "menemenler--sade-menemen",
+          "name": "Sade Menemen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "corbalar",
+      "name": "Çorbalar",
+      "note": null,
+      "order": 4,
+      "image": "/images/stok-corba.webp",
+      "items": [
+        {
+          "id": "corbalar--mercimek-corbasi",
+          "name": "Mercimek Çorbası",
+          "description": null,
+          "price": 150,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "tostlar",
+      "name": "Tost & Bazlama",
+      "note": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+      "order": 5,
+      "image": "/images/stok-tost.webp",
+      "items": [
+        {
+          "id": "tostlar--karisik-bazlama",
+          "name": "Karışık Bazlama",
+          "description": "Sucuk, kaşar; patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "price": 290,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tostlar--kavurmali-bazlama",
+          "name": "Kavurmalı Bazlama",
+          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "price": 320,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tostlar--karisik-tost",
+          "name": "Karışık Tost",
+          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "price": 240,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tostlar--kasarli-tost",
+          "name": "Kaşarlı Tost",
+          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tostlar--sucuklu-tost",
+          "name": "Sucuklu Tost",
+          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tostlar--kavurmali-tost",
+          "name": "Kavurmalı Tost",
+          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "price": 270,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "atistirmaliklar",
+      "name": "Atıştırmalıklar",
+      "note": null,
+      "order": 6,
+      "image": "/images/stok-atistirma.webp",
+      "items": [
+        {
+          "id": "atistirmaliklar--aparatif-tabagi",
+          "name": "Aparatif Tabağı",
+          "description": "Cips, sosis, nugget, soğan halkası, sigara böreği",
+          "price": 330,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "atistirmaliklar--tekli-patates-cips",
+          "name": "Tekli Patates Cips",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "atistirmaliklar--2li-patates-cips",
+          "name": "2'li Patates Cips",
+          "description": null,
+          "price": 320,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "atistirmaliklar--sogan-halkasi",
+          "name": "Soğan Halkası",
+          "description": null,
+          "price": 150,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "atistirmaliklar--citir-tavuk",
+          "name": "Çıtır Tavuk",
+          "description": null,
+          "price": 330,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "atistirmaliklar--sigara-boregi",
+          "name": "Sigara Böreği",
+          "description": null,
+          "price": 150,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "atistirmaliklar--ev-mantisi",
+          "name": "Ev Mantısı",
+          "description": "Sarımsaklı yoğurtlu, soslu, salata ile",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "gozlemeler",
+      "name": "Gözlemeler",
+      "note": "Patates cips ve söğüş ile",
+      "order": 7,
+      "image": "/images/stok-gozleme.webp",
+      "items": [
+        {
+          "id": "gozlemeler--kavurmali-kasarli-gozleme",
+          "name": "Kavurmalı Kaşarlı Gözleme",
+          "description": "Patates cips ve söğüş ile",
+          "price": 220,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "gozlemeler--peynirli-gozleme",
+          "name": "Peynirli Gözleme",
+          "description": "Patates cips ve söğüş ile",
+          "price": 170,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "gozlemeler--kasarli-gozleme",
+          "name": "Kaşarlı Gözleme",
+          "description": "Patates cips ve söğüş ile",
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "gozlemeler--ispanakli-kasarli-gozleme",
+          "name": "Ispanaklı Kaşarlı Gözleme",
+          "description": "Patates cips ve söğüş ile",
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "makarnalar",
+      "name": "Makarnalar",
+      "note": null,
+      "order": 8,
+      "image": "/images/stok-makarna.webp",
+      "items": [
+        {
+          "id": "makarnalar--penne-alfredo",
+          "name": "Penne Alfredo",
+          "description": "Mantar, tavuk göğsü, kaşar, mısır",
+          "price": 340,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "makarnalar--kremali-sade-penne",
+          "name": "Kremalı Sade Penne",
+          "description": null,
+          "price": 270,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "makarnalar--fettuccine-alfredo",
+          "name": "Fettuccine Alfredo",
+          "description": "Mantar, tavuk göğsü, kaşar, mısır",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "makarnalar--penne-arrabbiata",
+          "name": "Penne Arrabbiata",
+          "description": "Domates sos, zeytin, mısır, kaşar",
+          "price": 320,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "makarnalar--spagetti-bolonez",
+          "name": "Spagetti Bolonez",
+          "description": "Kıyma, domates sos, kaşar",
+          "price": 320,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "makarnalar--spagetti-napoliten",
+          "name": "Spagetti Napoliten",
+          "description": "Domates sosu, karışık baharatlar",
+          "price": 250,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "makarnalar--olia-fettuccine",
+          "name": "Olia Fettuccine",
+          "description": "Brokoli, mantar, kaşar, krema",
+          "price": 360,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "makarnalar--dana-bonfileli-penne",
+          "name": "Dana Bonfileli Penne",
+          "description": "Dana bonfile, krema, mantar, kaşar",
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "makarnalar--kori-soslu-penne",
+          "name": "Köri Soslu Penne",
+          "description": "Köri soslu tavuk, krema, mantar, kaşar",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "tavuk-cesitleri",
+      "name": "Tavuk Yemekleri",
+      "note": null,
+      "order": 9,
+      "image": "/images/stok-tavuk.webp",
+      "items": [
+        {
+          "id": "tavuk-cesitleri--kori-soslu-tavuk",
+          "name": "Köri Soslu Tavuk",
+          "description": "Makarna, cips, söğüş ile",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-cesitleri--meksika-soslu-tavuk-acili",
+          "name": "Meksika Soslu Tavuk (Acılı)",
+          "description": "Makarna, cips, söğüş ile",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-cesitleri--barbeku-soslu-tavuk",
+          "name": "Barbekü Soslu Tavuk",
+          "description": "Makarna, cips, söğüş ile",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-cesitleri--soya-soslu-tavuk",
+          "name": "Soya Soslu Tavuk",
+          "description": "Makarna, cips, söğüş ile",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-cesitleri--sweet-chili-soslu-tavuk-tatli-aci",
+          "name": "Sweet Chili Soslu Tavuk (Tatlı Acı)",
+          "description": "Makarna, cips, söğüş ile",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-cesitleri--tavuk-cokertme",
+          "name": "Tavuk Çökertme",
+          "description": "Salata ile",
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-cesitleri--kasarli-tavuk-sote",
+          "name": "Kaşarlı Tavuk Sote",
+          "description": "Salata ile",
+          "price": 375,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-cesitleri--tavuk-fajita",
+          "name": "Tavuk Fajita",
+          "description": "Salata ile",
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-cesitleri--tavuk-tako",
+          "name": "Tavuk Tako",
+          "description": "Cips, söğüş ile",
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "tavuk-izgaralar",
+      "name": "Tavuk Izgaralar",
+      "note": "Salata, cips ve garnitür ile",
+      "order": 10,
+      "image": "/images/stok-tavuk-izgara.webp",
+      "items": [
+        {
+          "id": "tavuk-izgaralar--tavuk-bonfile",
+          "name": "Tavuk Bonfile",
+          "description": "Salata, cips ve garnitür ile",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-izgaralar--cop-sis",
+          "name": "Çöp Şiş",
+          "description": "Salata, cips ve garnitür ile",
+          "price": 300,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tavuk-izgaralar--tavuk-pirzola",
+          "name": "Tavuk Pirzola",
+          "description": "Salata, cips ve garnitür ile",
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "kirmizi-et-izgaralar",
+      "name": "Kırmızı Et Izgaralar",
+      "note": "Cips, salata ve garnitür ile",
+      "order": 11,
+      "image": "/images/stok-et.webp",
+      "items": [
+        {
+          "id": "kirmizi-et-izgaralar--bonfile-stek-izgara",
+          "name": "Bonfile Stek Izgara",
+          "description": "Cips, salata ve garnitür ile",
+          "price": 700,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kirmizi-et-izgaralar--kuzu-pirzola",
+          "name": "Kuzu Pirzola",
+          "description": "Cips, salata ve garnitür ile",
+          "price": 750,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kirmizi-et-izgaralar--karisik-izgara",
+          "name": "Karışık Izgara",
+          "description": "Cips, salata ve garnitür ile",
+          "price": 750,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kirmizi-et-izgaralar--dallas-izgara",
+          "name": "Dallas Izgara",
+          "description": "Cips, salata ve garnitür ile",
+          "price": 900,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kirmizi-et-izgaralar--kofte-izgara-ev-yapimi",
+          "name": "Köfte Izgara (Ev Yapımı)",
+          "description": "Cips, salata ve garnitür ile",
+          "price": 450,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "tava-yemekleri",
+      "name": "Tava Yemekleri",
+      "note": null,
+      "order": 12,
+      "image": "/images/stok-tava.webp",
+      "items": [
+        {
+          "id": "tava-yemekleri--sac-tava",
+          "name": "Saç Tava",
+          "description": "Salata ile",
+          "price": 650,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tava-yemekleri--et-fajita",
+          "name": "Et Fajita",
+          "description": "Salata ile",
+          "price": 650,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tava-yemekleri--meksika-fajita",
+          "name": "Meksika Fajita",
+          "description": "Krema, mantar, baharat; salata ile",
+          "price": 650,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tava-yemekleri--olia-et-kapama",
+          "name": "Olia Et Kapama",
+          "description": "Salata ile",
+          "price": 650,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tava-yemekleri--et-cokertme",
+          "name": "Et Çökertme",
+          "description": "Salata ile",
+          "price": 500,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tava-yemekleri--comlekte-et-sote",
+          "name": "Çömlekte Et Sote",
+          "description": "Salata ile",
+          "price": 500,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tava-yemekleri--comlekte-coban-kavurma",
+          "name": "Çömlekte Çoban Kavurma",
+          "description": "Salata ile",
+          "price": 500,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tava-yemekleri--et-tako",
+          "name": "Et Tako",
+          "description": "Cips, söğüş ile",
+          "price": 500,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "hamburgerler",
+      "name": "Hamburgerler",
+      "note": "Patates cips ile",
+      "order": 13,
+      "image": "/images/stok-burger.webp",
+      "items": [
+        {
+          "id": "hamburgerler--klasik-burger",
+          "name": "Klasik Burger",
+          "description": "Patates cips ile",
+          "price": 300,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "hamburgerler--cheese-burger",
+          "name": "Cheese Burger",
+          "description": "Çedar peynirli; patates cips ile",
+          "price": 330,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "hamburgerler--duble-burger",
+          "name": "Duble Burger",
+          "description": "Patates cips ile",
+          "price": 530,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "hamburgerler--kremali-mantarli-burger",
+          "name": "Kremalı Mantarlı Burger",
+          "description": "Patates cips ile",
+          "price": 320,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "hamburgerler--acili-meksika-burger",
+          "name": "Acılı Meksika Burger",
+          "description": "Patates cips ile",
+          "price": 300,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "pizzalar",
+      "name": "Pizzalar",
+      "note": "Patates cips ile",
+      "order": 14,
+      "image": "/images/stok-pizza.webp",
+      "items": [
+        {
+          "id": "pizzalar--kavurmali-pizza",
+          "name": "Kavurmalı Pizza",
+          "description": "Patates cips ile",
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "pizzalar--karisik-pizza",
+          "name": "Karışık Pizza",
+          "description": "Patates cips ile",
+          "price": 340,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "pizzalar--kasarli-pizza",
+          "name": "Kaşarlı Pizza",
+          "description": "Patates cips ile",
+          "price": 300,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "pizzalar--sucuklu-pizza",
+          "name": "Sucuklu Pizza",
+          "description": "Patates cips ile",
+          "price": 320,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "pizzalar--sosisli-pizza",
+          "name": "Sosisli Pizza",
+          "description": "Patates cips ile",
+          "price": 320,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "pizzalar--meksika-pizza-acili",
+          "name": "Meksika Pizza (Acılı)",
+          "description": "Patates cips ile",
+          "price": 320,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "pizzalar--kori-soslu-pizza",
+          "name": "Köri Soslu Pizza",
+          "description": "Patates cips ile",
+          "price": 370,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "durumler",
+      "name": "Dürümler",
+      "note": "Söğüş ve patates cips ile",
+      "order": 15,
+      "image": "/images/stok-durum.webp",
+      "items": [
+        {
+          "id": "durumler--dana-etli-meksika-durum",
+          "name": "Dana Etli Meksika Dürüm",
+          "description": "Söğüş ve patates cips ile",
+          "price": 290,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "durumler--tavuk-etli-meksika-durum",
+          "name": "Tavuk Etli Meksika Dürüm",
+          "description": "Söğüş ve patates cips ile",
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "baliklar",
+      "name": "Balıklar",
+      "note": "Salata ile",
+      "order": 16,
+      "image": "/images/stok-balik.webp",
+      "items": [
+        {
+          "id": "baliklar--izgara-cupra",
+          "name": "Izgara Çupra",
+          "description": "Salata ile",
+          "price": 500,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "baliklar--tava-cupra",
+          "name": "Tava Çupra",
+          "description": "Salata ile",
+          "price": 500,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "salatalar",
+      "name": "Salatalar",
+      "note": null,
+      "order": 17,
+      "image": "/images/stok-salata.webp",
+      "items": [
+        {
+          "id": "salatalar--olia-tavuklu-salata",
+          "name": "Olia Tavuklu Salata",
+          "description": "Köz biberli, sarımsaklı yoğurtlu mayonezli kıvırcık, roka, tavuk",
+          "price": 300,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "salatalar--olia-yesil-salata",
+          "name": "Olia Yeşil Salata",
+          "description": "Portakal soslu yeşil salata",
+          "price": 250,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "salatalar--sezar-salata",
+          "name": "Sezar Salata",
+          "description": null,
+          "price": 300,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "salatalar--coban-salata",
+          "name": "Çoban Salata",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "salatalar--beyaz-peynirli-salata",
+          "name": "Beyaz Peynirli Salata",
+          "description": null,
+          "price": 250,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "salatalar--ton-balikli-salata",
+          "name": "Ton Balıklı Salata",
+          "description": null,
+          "price": 350,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "salatalar--yesil-salata",
+          "name": "Yeşil Salata",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "tatlilar",
+      "name": "Tatlılar",
+      "note": null,
+      "order": 18,
+      "image": "/images/stok-tatli.webp",
+      "items": [
+        {
+          "id": "tatlilar--waffle",
+          "name": "Waffle",
+          "description": null,
+          "price": 250,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--kovada-waffle",
+          "name": "Kovada Waffle",
+          "description": "Fındık, çikolata, meyve",
+          "price": 250,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--dondurmali-kunefe",
+          "name": "Dondurmalı Künefe",
+          "description": null,
+          "price": 300,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--cikolatali-dondurmali-sufle",
+          "name": "Çikolatalı Dondurmalı Sufle",
+          "description": null,
+          "price": 250,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--magnolya",
+          "name": "Magnolya",
+          "description": null,
+          "price": 220,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--kizarmis-dondurma",
+          "name": "Kızarmış Dondurma",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--bella-vista",
+          "name": "Bella Vista",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--mango-mono-pastasi",
+          "name": "Mango Mono  Pastası",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--fistikli-mono-pasta",
+          "name": "Fıstıklı Mono Pasta",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--tiramisu",
+          "name": "Tiramisu",
+          "description": null,
+          "price": 220,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--belcika-cikolatali-pasta",
+          "name": "Belçika Çikolatalı Pasta",
+          "description": null,
+          "price": 230,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--san-sebastian-cheesecake",
+          "name": "San Sebastian Cheesecake",
+          "description": null,
+          "price": 250,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--fistik-ruyasi",
+          "name": "Fıstık Rüyası",
+          "description": null,
+          "price": 220,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--limonlu-cheesecake",
+          "name": "Limonlu Cheesecake",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--frambuazli-cheesecake",
+          "name": "Frambuazlı Cheesecake",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--limonlu-tramisu",
+          "name": "Limonlu Tramisu",
+          "description": null,
+          "price": 220,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "tatlilar--devils-pasta",
+          "name": "Devils Pasta",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "meyve-cerez",
+      "name": "Meyve & Çerez",
+      "note": null,
+      "order": 19,
+      "image": "/images/stok-meyve.webp",
+      "items": [
+        {
+          "id": "meyve-cerez--ikili-meyve-tabagi",
+          "name": "İkili Meyve Tabağı",
+          "description": null,
+          "price": 220,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "meyve-cerez--tekli-cerez-tabagi",
+          "name": "Tekli Çerez Tabağı",
+          "description": null,
+          "price": 275,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "meyve-cerez--duble-cerez-tabagi",
+          "name": "Duble Çerez Tabağı",
+          "description": null,
+          "price": 550,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "sicak-icecekler",
+      "name": "Sıcak İçecekler",
+      "note": null,
+      "order": 20,
+      "image": "/images/take-away-bardaklar.webp",
+      "items": [
+        {
+          "id": "sicak-icecekler--cay",
+          "name": "Çay",
+          "description": null,
+          "price": 35,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--sicak-cikolata",
+          "name": "Sıcak Çikolata",
+          "description": null,
+          "price": 170,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--ihlamur",
+          "name": "Ihlamur",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--adacayi",
+          "name": "Adaçayı",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--papatya-cayi",
+          "name": "Papatya çayı",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--nane-limon",
+          "name": "Nane limon",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--kis-cayi",
+          "name": "Kış çayı",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--elma-tarcin",
+          "name": "Elma tarçın",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--yesil-cay",
+          "name": "Yeşil çay",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--sicak-beyaz-cikolata",
+          "name": "Sıcak Beyaz Çikolata",
+          "description": null,
+          "price": 170,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--sahlep",
+          "name": "Sahlep",
+          "description": null,
+          "price": 170,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--sut",
+          "name": "Süt",
+          "description": null,
+          "price": 50,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-icecekler--aromali-sut",
+          "name": "Aromalı Süt",
+          "description": null,
+          "price": 60,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "turk-kahveleri",
+      "name": "Türk Kahveleri",
+      "note": null,
+      "order": 21,
+      "image": "/images/cezve-turk-kahvesi.webp",
+      "items": [
+        {
+          "id": "turk-kahveleri--turk-kahvesi",
+          "name": "Türk Kahvesi",
+          "description": null,
+          "price": 120,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--damla-sakizli-turk-kahvesi",
+          "name": "Damla Sakızlı Türk Kahvesi",
+          "description": null,
+          "price": 130,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--dibek-kahvesi",
+          "name": "Dibek Kahvesi",
+          "description": null,
+          "price": 130,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--menengic-kahvesi",
+          "name": "Menengiç Kahvesi",
+          "description": null,
+          "price": 130,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--hasankeyf",
+          "name": "Hasankeyf",
+          "description": null,
+          "price": 150,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--bade-kahve",
+          "name": "Bade Kahve",
+          "description": null,
+          "price": 130,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--duble-turk-kahvesi",
+          "name": "Duble Türk Kahvesi",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--sutlu-turk-kahvesi",
+          "name": "Sütlü Türk Kahvesi",
+          "description": null,
+          "price": 130,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--duble-sutlu-turk-kahvesi",
+          "name": "Duble Sütlü Türk kahvesi",
+          "description": null,
+          "price": 150,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "turk-kahveleri--aromali-dibek",
+          "name": "Aromalı Dibek",
+          "description": null,
+          "price": 140,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "sicak-kahveler",
+      "name": "Sıcak Kahveler",
+      "note": null,
+      "order": 22,
+      "image": "/images/stok-kahve.webp",
+      "items": [
+        {
+          "id": "sicak-kahveler--filtre-kahve",
+          "name": "Filtre Kahve",
+          "description": null,
+          "price": 160,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--v60",
+          "name": "V60",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--espresso",
+          "name": "Espresso",
+          "description": null,
+          "price": 100,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--americano",
+          "name": "Americano",
+          "description": null,
+          "price": 150,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--latte",
+          "name": "Latte",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--cappuccino",
+          "name": "Cappuccino",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--cortado",
+          "name": "Cortado",
+          "description": null,
+          "price": 150,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--mocha",
+          "name": "Mocha",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--caramel-latte",
+          "name": "Caramel Latte",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--pumpkin-spice-latte",
+          "name": "Pumpkin Spice Latte",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--macchiato",
+          "name": "Macchiato",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--caramel-macchiato",
+          "name": "Caramel Macchiato",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--hazelnut-latte",
+          "name": "Hazelnut Latte",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--chai-tea-latte",
+          "name": "Chai Tea Latte",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--duble-espresso",
+          "name": "Duble Espresso",
+          "description": null,
+          "price": 120,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--vanilya-latte",
+          "name": "Vanilya Latte",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--cold-brew",
+          "name": "Cold Brew",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--flat-white",
+          "name": "Flat White",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--sutlu-americano",
+          "name": "Sütlü Americano",
+          "description": null,
+          "price": 160,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--white-chocolate-mocha",
+          "name": "White Chocolate Mocha",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--caramel-mocha",
+          "name": "Caramel Mocha",
+          "description": null,
+          "price": 190,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "sicak-kahveler--affogato",
+          "name": "Affogato",
+          "description": null,
+          "price": 240,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "soguk-kahveler",
+      "name": "Soğuk Kahveler",
+      "note": null,
+      "order": 23,
+      "image": "/images/stok-buzlu.webp",
+      "items": [
+        {
+          "id": "soguk-kahveler--iced-americano",
+          "name": "Iced Americano",
+          "description": null,
+          "price": 160,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-kahveler--iced-latte",
+          "name": "Iced Latte",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-kahveler--iced-mocha",
+          "name": "Iced Mocha",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-kahveler--iced-white-mocha",
+          "name": "Iced White Mocha",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-kahveler--iced-caramel-macchiato",
+          "name": "Iced Caramel Macchiato",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-kahveler--iced-pumpkin-latte",
+          "name": "Iced Pumpkin Latte",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-kahveler--iced-hazelnut",
+          "name": "Iced Hazelnut",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-kahveler--iced-caramel-latte",
+          "name": "Iced Caramel Latte",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "soguk-icecekler",
+      "name": "Soğuk İçecekler",
+      "note": null,
+      "order": 24,
+      "image": "/images/stok-icecek.webp",
+      "items": [
+        {
+          "id": "soguk-icecekler--su",
+          "name": "Su",
+          "description": null,
+          "price": 30,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--soda",
+          "name": "Soda",
+          "description": null,
+          "price": 50,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--meyveli-soda",
+          "name": "Meyveli Soda",
+          "description": null,
+          "price": 65,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--meyve-suyu",
+          "name": "Meyve Suyu",
+          "description": null,
+          "price": 80,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--cola",
+          "name": "Cola",
+          "description": null,
+          "price": 80,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--fanta",
+          "name": "Fanta",
+          "description": null,
+          "price": 80,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--soguk-cay",
+          "name": "Soğuk Çay",
+          "description": null,
+          "price": 80,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--sprite",
+          "name": "Sprite",
+          "description": null,
+          "price": 80,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--enerji-icecegi",
+          "name": "Enerji İçeceği",
+          "description": null,
+          "price": 100,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--limonata",
+          "name": "Limonata",
+          "description": null,
+          "price": 100,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--ayran",
+          "name": "Ayran",
+          "description": null,
+          "price": 60,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--cilekli-limonata",
+          "name": "Çilekli Limonata",
+          "description": null,
+          "price": 120,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--naneli-limonata",
+          "name": "Naneli Limonata",
+          "description": null,
+          "price": 120,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--portakal-suyu",
+          "name": "Portakal  Suyu",
+          "description": null,
+          "price": 100,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--churchill",
+          "name": "Churchill",
+          "description": null,
+          "price": 80,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "kokteyller",
+      "name": "Kokteyller",
+      "note": null,
+      "order": 25,
+      "image": "/images/stok-kokteyl.webp",
+      "items": [
+        {
+          "id": "kokteyller--mojito",
+          "name": "Mojito",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--black-mulberry",
+          "name": "Black Mulberry",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--olia-kokteyl",
+          "name": "Olia Kokteyl",
+          "description": null,
+          "price": 230,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--kuzu-kulagi",
+          "name": "Kuzu Kulağı",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--sindirella",
+          "name": "Sindirella",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--sara-kokteyl",
+          "name": "Sara Kokteyl",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--orange-mango",
+          "name": "Orange Mango",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--hibiscus",
+          "name": "Hibiscus",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--rainbow",
+          "name": "Rainbow",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--blue-hawaii",
+          "name": "Blue Hawaii",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--cocostar-kokteyl",
+          "name": "Cocostar Kokteyl",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--sex-on-the-beach",
+          "name": "Sex on The Beach",
+          "description": null,
+          "price": 210,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "kokteyller--visne-kokteyl",
+          "name": "Vişne Kokteyl",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "milkshakeler",
+      "name": "Milkshake'ler",
+      "note": null,
+      "order": 26,
+      "image": "/images/stok-milkshake.webp",
+      "items": [
+        {
+          "id": "milkshakeler--tropical-milkshake",
+          "name": "Tropical Milkshake",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "milkshakeler--cikolatali-milkshake",
+          "name": "Çikolatalı Milkshake",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "milkshakeler--cilekli-milkshake",
+          "name": "Çilekli Milkshake",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "milkshakeler--muzlu-milkshake",
+          "name": "Muzlu Milkshake",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "milkshakeler--olia-milkshake",
+          "name": "Olia Milkshake",
+          "description": null,
+          "price": 220,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "milkshakeler--karamel-milkshake",
+          "name": "Karamel Milkshake",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "milkshakeler--vanilya-milkshake",
+          "name": "Vanilya Milkshake",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "milkshakeler--oreo-milkshake",
+          "name": "Oreo Milkshake",
+          "description": null,
+          "price": 220,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "frozenlar",
+      "name": "Frozen'lar",
+      "note": null,
+      "order": 27,
+      "image": "/images/stok-frozen.webp",
+      "items": [
+        {
+          "id": "frozenlar--kavun-frozen",
+          "name": "Kavun Frozen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--karpuz-frozen",
+          "name": "Karpuz Frozen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--kivi-frozen",
+          "name": "Kivi Frozen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--nane-limon-frozen",
+          "name": "Nane Limon Frozen",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--tropical-frozen",
+          "name": "Tropical Frozen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--olia-frozen",
+          "name": "Olia Frozen",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--cilek-frozen",
+          "name": "Çilek Frozen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--mango-frozen",
+          "name": "Mango Frozen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--ananas-frozen",
+          "name": "Ananas Frozen",
+          "description": null,
+          "price": 120,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--karadut-frozen",
+          "name": "Karadut Frozen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--yesil-elma-frozen",
+          "name": "Yeşil Elma Frozen",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--seftali-frozen",
+          "name": "Şeftali Frozen",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frozenlar--ananas-frozen-kopya",
+          "name": "Ananas Frozen - Kopya",
+          "description": null,
+          "price": 180,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "frappeler",
+      "name": "Frappe'ler",
+      "note": null,
+      "order": 28,
+      "image": "/images/soguk-kahve.webp",
+      "items": [
+        {
+          "id": "frappeler--cikolata-frappe",
+          "name": "Çikolata Frappe",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frappeler--vanilya-frappe",
+          "name": "Vanilya Frappe",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frappeler--karamel-frappe",
+          "name": "Karamel Frappe",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "frappeler--hazelnut-frappe",
+          "name": "Hazelnut Frappe",
+          "description": null,
+          "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "nargile-cesitleri",
+      "name": "Nargile Çeşitleri",
+      "note": null,
+      "order": 29,
+      "image": "/images/stok-bar.webp",
+      "items": [
+        {
+          "id": "nargile-cesitleri--yanik-seftali",
+          "name": "Yanık Şeftali",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--love-66",
+          "name": "Love 66",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--cilek",
+          "name": "Çilek",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--kavun",
+          "name": "Kavun",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--karpuz",
+          "name": "Karpuz",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--elma",
+          "name": "Elma",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--tarcin",
+          "name": "Tarçın",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--mango",
+          "name": "Mango",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--uzum",
+          "name": "Üzüm",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--yaban-mersini",
+          "name": "Yaban Mersini",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--limon",
+          "name": "Limon",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--nane",
+          "name": "Nane",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--anason",
+          "name": "Anason",
+          "description": null,
+          "price": 450,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--ananas",
+          "name": "Ananas",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--portakal",
+          "name": "Portakal",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "nargile-cesitleri--lady-killer",
+          "name": "Lady Killer",
+          "description": null,
+          "price": 400,
+          "available": true,
+          "tags": [],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "specialMenus": [
+    {
+      "id": "acilis-gecesi-fix-menu",
+      "name": "Açılış Gecesi Fix Menü",
+      "subtitle": "Sasa Serap ile açılış gecesi",
+      "date": "2026-11-22T20:00:00+03:00",
+      "validUntil": "2026-11-23T03:00:00+03:00",
+      "price": 2000,
+      "items": [
+        "Patlamış mısır",
+        "Çerez tabağı",
+        "Meyve tabağı",
+        "Çiğköfte",
+        "Bir adet kahve"
+      ],
+      "reservationPhone": "+905349289946",
+      "image": "/images/etkinlik-fix-menu.jpg",
+      "showAsBanner": false
+    }
+  ]
+}

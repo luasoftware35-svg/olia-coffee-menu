@@ -1,0 +1,40 @@
+{
+  "name": "Olia Coffee",
+  "displayName": "Olia Kahve & Restoran",
+  "slogan": "Tadında Var",
+  "instagram": {
+    "handle": "@oliacoffee.co",
+    "url": "https://www.instagram.com/oliacoffee.co/"
+  },
+  "phone": "+90 534 928 99 46",
+  "phoneE164": "+905349289946",
+  "whatsapp": "https://wa.me/905349289946",
+  "address": {
+    "street": "Dicle Mah. Kıralan Dink Mevkii No:7",
+    "landmark": "Ergani Devlet Hastanesi yanı",
+    "district": "Ergani",
+    "city": "Diyarbakır",
+    "postalCode": "21950",
+    "country": "TR"
+  },
+  "googleMapsUrl": "TODO — Google İşletme Profili doğrulanınca paylaş linkini ekle",
+  "geo": {
+    "lat": null,
+    "lng": null,
+    "note": "TODO — haritadaki pinden al"
+  },
+  "openingHours": "08:00 – 01:00",
+  "domain": "oliacoffee.tr",
+  "wifi": {
+    "ssid": null,
+    "password": null,
+    "note": "İstenirse menüde gösterilecek"
+  },
+  "categoriesGoogle": [
+    "Kafe",
+    "Kahve dükkanı",
+    "Restoran",
+    "Espresso bar"
+  ],
+  "seoDescription": "Olia Coffee, Ergani'de nitelikli kahve, kahvaltı, makarna, tatlı ve soğuk içecekler sunan kafe ve restoran. Ergani Devlet Hastanesi yanında. Online menü."
+}

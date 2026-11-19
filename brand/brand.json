@@ -1,0 +1,35 @@
+{
+  "colors": {
+    "ekru": "#FBFAE6",
+    "bakir": "#B7542B",
+    "cam": "#213A34",
+    "bakirAcik": "#E9A06C",
+    "bakirPastel": "#F2B98A",
+    "gece": "#18120E",
+    "kahve": "#463A30"
+  },
+  "usage": {
+    "background": "ekru",
+    "text": "cam",
+    "accent": "bakir",
+    "darkSurface": "cam veya gece",
+    "priceColor": "bakir"
+  },
+  "fonts": {
+    "display": {
+      "family": "Bodoni Moda",
+      "source": "Google Fonts",
+      "use": "Başlıklar, kategori adları, ürün adları, fiyat"
+    },
+    "script": {
+      "family": "Pinyon Script",
+      "source": "Google Fonts",
+      "use": "Sadece dekoratif tek kelime başlık (ör. 'Menü', 'Fix Menü'); ürün listesinde KULLANMA"
+    },
+    "ui": {
+      "family": "Bodoni Moda (küçük harf aralıklı büyük harf etiketler)",
+      "note": "Okunabilirlik için açıklamalarda 15–16px altına inme"
+    }
+  },
+  "style": "Editoryal, sade, fotoğraf odaklı. İnce bakır ayraç çizgileri, geniş letter-spacing'li küçük büyük harf etiketler (0.28em), italik açıklamalar. Gölge, gradient buton, emoji, yuvarlak 'app' kartları YOK."
+}
