@@ -61,12 +61,18 @@ const KAHVE = [
   "frappeler",
 ]
 
-type GroupId = "mutfak" | "kahve"
+const NARGILE = ["nargile-cesitleri"]
 
-const GROUP_IDS: Record<GroupId, string[]> = { mutfak: MUTFAK, kahve: KAHVE }
+type GroupId = "mutfak" | "kahve" | "nargile"
+
+const GROUP_IDS: Record<GroupId, string[]> = { mutfak: MUTFAK, kahve: KAHVE, nargile: NARGILE }
+const GROUP_ORDER: GroupId[] = ["mutfak", "kahve", "nargile"]
+const GROUP_LABEL: Record<GroupId, string> = { mutfak: "Mutfak", kahve: "Kahve", nargile: "Nargile" }
 
 function groupIdOf(id: string): GroupId {
-  return KAHVE.includes(id) ? "kahve" : "mutfak"
+  if (KAHVE.includes(id)) return "kahve"
+  if (NARGILE.includes(id)) return "nargile"
+  return "mutfak"
 }
 
 function inGroup(categories: Category[], group: GroupId) {
@@ -87,6 +93,7 @@ export function MenuShell({ categories }: { categories: Category[] }) {
   const searchInput = useRef<HTMLInputElement>(null)
   const pendingItem = useRef<string | null>(null)
   const ready = useRef(false)
+  const teachersDay = useTeachersDay()
 
   const indexOf = (id: string | null) => categories.findIndex((category) => category.id === id)
   const active = categories.find((category) => category.id === view) ?? null
@@ -94,8 +101,8 @@ export function MenuShell({ categories }: { categories: Category[] }) {
   const siblings = group ? inGroup(categories, group) : []
   const localIndex = active ? siblings.findIndex((category) => category.id === active.id) : -1
   const next = localIndex >= 0 ? siblings[localIndex + 1] : undefined
-  const otherGroup: GroupId | null = group === "mutfak" ? "kahve" : group === "kahve" ? "mutfak" : null
-  const bridge = otherGroup ? inGroup(categories, otherGroup)[0] : undefined
+  const nextGroup = group ? GROUP_ORDER[GROUP_ORDER.indexOf(group) + 1] : undefined
+  const bridge = nextGroup ? inGroup(categories, nextGroup)[0] : undefined
 
   useEffect(() => {
     const fromHash = () => {
@@ -256,13 +263,14 @@ export function MenuShell({ categories }: { categories: Category[] }) {
             total={siblings.length}
             next={next}
             bridge={next ? undefined : bridge}
-            bridgeLabel={otherGroup === "kahve" ? "Kahve" : "Mutfak"}
+            bridgeLabel={nextGroup ? GROUP_LABEL[nextGroup] : ""}
             onNext={(id) => travel(id)}
             onHome={() => travel(null)}
           />
         ) : (
           <Home
             categories={categories}
+            teachersDay={teachersDay}
             onOpen={(id) => travel(id)}
             onSearch={() => setSearchOpen(true)}
           />
@@ -323,22 +331,64 @@ export function MenuShell({ categories }: { categories: Category[] }) {
           </div>
         </div>
       ) : null}
+      <WelcomeTicker teachersDay={teachersDay} />
+    </div>
+  )
+}
+
+const GREETING = "Olia Coffee'ye hoş geldiniz   ·   Tadında Var   ·   Kahve & Restoran   ·   "
+const TEACHERS = "Öğretmenler Günü'nüz kutlu olsun"
+
+function useTeachersDay() {
+  const [on, setOn] = useState(false)
+  useEffect(() => {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "Europe/Istanbul",
+      month: "2-digit",
+      day: "2-digit",
+    }).formatToParts(new Date())
+    const month = parts.find((part) => part.type === "month")?.value
+    const day = parts.find((part) => part.type === "day")?.value
+    setOn(month === "11" && day === "24")
+  }, [])
+  return on
+}
+
+function WelcomeTicker({ teachersDay }: { teachersDay: boolean }) {
+  const greeting = teachersDay ? `${TEACHERS}   ·   ${GREETING}` : GREETING
+  const line = greeting.repeat(2)
+  return (
+    <div className="ticker">
+      <p className="sr-only">
+        <BrandText text={teachersDay ? `${TEACHERS}. Olia Coffee'ye hoş geldiniz` : "Olia Coffee'ye hoş geldiniz"} />
+      </p>
+      <div className="ticker-track" aria-hidden="true">
+        <p>
+          <BrandText text={line} />
+        </p>
+        <p>
+          <BrandText text={line} />
+        </p>
+      </div>
     </div>
   )
 }
 
 function Home({
   categories,
+  teachersDay,
   onOpen,
   onSearch,
 }: {
   categories: Category[]
+  teachersDay: boolean
   onOpen: (id: string) => void
   onSearch: () => void
 }) {
   const hours = isFilled(business.openingHours)
   const kitchen = inGroup(categories, "mutfak")
   const coffee = inGroup(categories, "kahve")
+  const hookah = inGroup(categories, "nargile")
   const directions = isFilled(business.googleMapsUrl)
     ? business.googleMapsUrl
     : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
@@ -354,6 +404,7 @@ function Home({
         <p className="eyebrow">Kahve & Restoran</p>
         <h1 id="home-h">Menü</h1>
         <p className="intro">{business.slogan}</p>
+        {teachersDay ? <p className="daynote">{TEACHERS}</p> : null}
         <p className="place">
           {business.address.landmark}
           {hours ? ` · ${business.openingHours}` : ""}
@@ -368,9 +419,11 @@ function Home({
         <nav className="doors" aria-label="Bölümler">
           <a href="#mutfak">Mutfak</a>
           <a href="#kahve">Kahve</a>
+          <a href="#nargile">Nargile</a>
         </nav>
         <Directory id="mutfak" title="Mutfak" categories={kitchen} onOpen={onOpen} />
         <Directory id="kahve" title="Kahve" categories={coffee} onOpen={onOpen} />
+        <Directory id="nargile" title="Nargile" categories={hookah} onOpen={onOpen} />
         <p className="fine">Alerjenler için servis ekibimize danışabilirsiniz. Fiyatlarımıza KDV dahildir.</p>
       </section>
       <footer className="venue">
@@ -400,6 +453,10 @@ function Home({
         </a>
         <a className="directions" href={directions} target="_blank" rel="noopener noreferrer">
           Yol tarifi
+        </a>
+        <a className="partner" href="https://genuadigital.com" target="_blank" rel="noopener noreferrer">
+          <span>Dijital partner</span>
+          <strong>genuadigital</strong>
         </a>
       </footer>
     </>

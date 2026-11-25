@@ -3,7 +3,7 @@
   "currency": "TRY",
   "currencySymbol": "₺",
   "priceFormat": "tr-TR, tam sayı (örn. 1.250 ₺)",
-  "lastUpdated": "2026-11-19",
+  "lastUpdated": "2026-11-22",
   "itemCount": 226,
   "categories": [
     {
@@ -43,7 +43,7 @@
         {
           "id": "omletler--sahanda-kavurmali-omlet",
           "name": "Sahanda Kavurmalı Omlet",
-          "description": "Söğüş ile",
+          "description": null,
           "price": 250,
           "available": true,
           "tags": [],
@@ -52,7 +52,7 @@
         {
           "id": "omletler--sahanda-sucuklu-omlet",
           "name": "Sahanda Sucuklu Omlet",
-          "description": "Söğüş ile",
+          "description": null,
           "price": 160,
           "available": true,
           "tags": [],
@@ -61,7 +61,7 @@
         {
           "id": "omletler--sahanda-kasarli-omlet",
           "name": "Sahanda Kaşarlı Omlet",
-          "description": "Söğüş ile",
+          "description": null,
           "price": 160,
           "available": true,
           "tags": [],
@@ -142,7 +142,7 @@
         {
           "id": "tostlar--karisik-bazlama",
           "name": "Karışık Bazlama",
-          "description": "Sucuk, kaşar; patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "description": "Sucuk, kaşar",
           "price": 290,
           "available": true,
           "tags": [],
@@ -151,7 +151,7 @@
         {
           "id": "tostlar--kavurmali-bazlama",
           "name": "Kavurmalı Bazlama",
-          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "description": null,
           "price": 320,
           "available": true,
           "tags": [],
@@ -160,7 +160,7 @@
         {
           "id": "tostlar--karisik-tost",
           "name": "Karışık Tost",
-          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "description": null,
           "price": 240,
           "available": true,
           "tags": [],
@@ -169,7 +169,7 @@
         {
           "id": "tostlar--kasarli-tost",
           "name": "Kaşarlı Tost",
-          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "description": null,
           "price": 180,
           "available": true,
           "tags": [],
@@ -178,7 +178,7 @@
         {
           "id": "tostlar--sucuklu-tost",
           "name": "Sucuklu Tost",
-          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "description": null,
           "price": 180,
           "available": true,
           "tags": [],
@@ -187,7 +187,7 @@
         {
           "id": "tostlar--kavurmali-tost",
           "name": "Kavurmalı Tost",
-          "description": "Patates cips, söğüş, jalapeno ve çarliston biber ile",
+          "description": null,
           "price": 270,
           "available": true,
           "tags": [],
@@ -203,8 +203,8 @@
       "image": "/images/stok-atistirma.webp",
       "items": [
         {
-          "id": "atistirmaliklar--aparatif-tabagi",
-          "name": "Aparatif Tabağı",
+          "id": "atistirmaliklar--aperatif-tabagi",
+          "name": "Aperatif Tabağı",
           "description": "Cips, sosis, nugget, soğan halkası, sigara böreği",
           "price": 330,
           "available": true,
@@ -277,7 +277,7 @@
         {
           "id": "gozlemeler--kavurmali-kasarli-gozleme",
           "name": "Kavurmalı Kaşarlı Gözleme",
-          "description": "Patates cips ve söğüş ile",
+          "description": null,
           "price": 220,
           "available": true,
           "tags": [],
@@ -286,7 +286,7 @@
         {
           "id": "gozlemeler--peynirli-gozleme",
           "name": "Peynirli Gözleme",
-          "description": "Patates cips ve söğüş ile",
+          "description": null,
           "price": 170,
           "available": true,
           "tags": [],
@@ -295,7 +295,7 @@
         {
           "id": "gozlemeler--kasarli-gozleme",
           "name": "Kaşarlı Gözleme",
-          "description": "Patates cips ve söğüş ile",
+          "description": null,
           "price": 180,
           "available": true,
           "tags": [],
@@ -304,7 +304,7 @@
         {
           "id": "gozlemeler--ispanakli-kasarli-gozleme",
           "name": "Ispanaklı Kaşarlı Gözleme",
-          "description": "Patates cips ve söğüş ile",
+          "description": null,
           "price": 200,
           "available": true,
           "tags": [],
@@ -502,7 +502,7 @@
         {
           "id": "tavuk-izgaralar--tavuk-bonfile",
           "name": "Tavuk Bonfile",
-          "description": "Salata, cips ve garnitür ile",
+          "description": null,
           "price": 350,
           "available": true,
           "tags": [],
@@ -511,7 +511,7 @@
         {
           "id": "tavuk-izgaralar--cop-sis",
           "name": "Çöp Şiş",
-          "description": "Salata, cips ve garnitür ile",
+          "description": null,
           "price": 300,
           "available": true,
           "tags": [],
@@ -520,7 +520,7 @@
         {
           "id": "tavuk-izgaralar--tavuk-pirzola",
           "name": "Tavuk Pirzola",
-          "description": "Salata, cips ve garnitür ile",
+          "description": null,
           "price": 350,
           "available": true,
           "tags": [],
@@ -538,7 +538,7 @@
         {
           "id": "kirmizi-et-izgaralar--bonfile-stek-izgara",
           "name": "Bonfile Stek Izgara",
-          "description": "Cips, salata ve garnitür ile",
+          "description": null,
           "price": 700,
           "available": true,
           "tags": [],
@@ -547,7 +547,7 @@
         {
           "id": "kirmizi-et-izgaralar--kuzu-pirzola",
           "name": "Kuzu Pirzola",
-          "description": "Cips, salata ve garnitür ile",
+          "description": null,
           "price": 750,
           "available": true,
           "tags": [],
@@ -556,7 +556,7 @@
         {
           "id": "kirmizi-et-izgaralar--karisik-izgara",
           "name": "Karışık Izgara",
-          "description": "Cips, salata ve garnitür ile",
+          "description": null,
           "price": 750,
           "available": true,
           "tags": [],
@@ -565,7 +565,7 @@
         {
           "id": "kirmizi-et-izgaralar--dallas-izgara",
           "name": "Dallas Izgara",
-          "description": "Cips, salata ve garnitür ile",
+          "description": null,
           "price": 900,
           "available": true,
           "tags": [],
@@ -574,7 +574,7 @@
         {
           "id": "kirmizi-et-izgaralar--kofte-izgara-ev-yapimi",
           "name": "Köfte Izgara (Ev Yapımı)",
-          "description": "Cips, salata ve garnitür ile",
+          "description": null,
           "price": 450,
           "available": true,
           "tags": [],
@@ -673,7 +673,7 @@
         {
           "id": "hamburgerler--klasik-burger",
           "name": "Klasik Burger",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 300,
           "available": true,
           "tags": [],
@@ -682,7 +682,7 @@
         {
           "id": "hamburgerler--cheese-burger",
           "name": "Cheese Burger",
-          "description": "Çedar peynirli; patates cips ile",
+          "description": "Çedar peynirli",
           "price": 330,
           "available": true,
           "tags": [],
@@ -691,7 +691,7 @@
         {
           "id": "hamburgerler--duble-burger",
           "name": "Duble Burger",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 530,
           "available": true,
           "tags": [],
@@ -700,7 +700,7 @@
         {
           "id": "hamburgerler--kremali-mantarli-burger",
           "name": "Kremalı Mantarlı Burger",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 320,
           "available": true,
           "tags": [],
@@ -709,7 +709,7 @@
         {
           "id": "hamburgerler--acili-meksika-burger",
           "name": "Acılı Meksika Burger",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 300,
           "available": true,
           "tags": [],
@@ -727,7 +727,7 @@
         {
           "id": "pizzalar--kavurmali-pizza",
           "name": "Kavurmalı Pizza",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 400,
           "available": true,
           "tags": [],
@@ -736,7 +736,7 @@
         {
           "id": "pizzalar--karisik-pizza",
           "name": "Karışık Pizza",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 340,
           "available": true,
           "tags": [],
@@ -745,7 +745,7 @@
         {
           "id": "pizzalar--kasarli-pizza",
           "name": "Kaşarlı Pizza",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 300,
           "available": true,
           "tags": [],
@@ -754,7 +754,7 @@
         {
           "id": "pizzalar--sucuklu-pizza",
           "name": "Sucuklu Pizza",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 320,
           "available": true,
           "tags": [],
@@ -763,7 +763,7 @@
         {
           "id": "pizzalar--sosisli-pizza",
           "name": "Sosisli Pizza",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 320,
           "available": true,
           "tags": [],
@@ -772,7 +772,7 @@
         {
           "id": "pizzalar--meksika-pizza-acili",
           "name": "Meksika Pizza (Acılı)",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 320,
           "available": true,
           "tags": [],
@@ -781,7 +781,7 @@
         {
           "id": "pizzalar--kori-soslu-pizza",
           "name": "Köri Soslu Pizza",
-          "description": "Patates cips ile",
+          "description": null,
           "price": 370,
           "available": true,
           "tags": [],
@@ -799,7 +799,7 @@
         {
           "id": "durumler--dana-etli-meksika-durum",
           "name": "Dana Etli Meksika Dürüm",
-          "description": "Söğüş ve patates cips ile",
+          "description": null,
           "price": 290,
           "available": true,
           "tags": [],
@@ -808,7 +808,7 @@
         {
           "id": "durumler--tavuk-etli-meksika-durum",
           "name": "Tavuk Etli Meksika Dürüm",
-          "description": "Söğüş ve patates cips ile",
+          "description": null,
           "price": 210,
           "available": true,
           "tags": [],
@@ -826,7 +826,7 @@
         {
           "id": "baliklar--izgara-cupra",
           "name": "Izgara Çupra",
-          "description": "Salata ile",
+          "description": null,
           "price": 500,
           "available": true,
           "tags": [],
@@ -835,7 +835,7 @@
         {
           "id": "baliklar--tava-cupra",
           "name": "Tava Çupra",
-          "description": "Salata ile",
+          "description": null,
           "price": 500,
           "available": true,
           "tags": [],
@@ -1158,7 +1158,7 @@
         },
         {
           "id": "sicak-icecekler--papatya-cayi",
-          "name": "Papatya çayı",
+          "name": "Papatya Çayı",
           "description": null,
           "price": 140,
           "available": true,
@@ -1167,7 +1167,7 @@
         },
         {
           "id": "sicak-icecekler--nane-limon",
-          "name": "Nane limon",
+          "name": "Nane Limon",
           "description": null,
           "price": 140,
           "available": true,
@@ -1176,7 +1176,7 @@
         },
         {
           "id": "sicak-icecekler--kis-cayi",
-          "name": "Kış çayı",
+          "name": "Kış Çayı",
           "description": null,
           "price": 140,
           "available": true,
@@ -1185,7 +1185,7 @@
         },
         {
           "id": "sicak-icecekler--elma-tarcin",
-          "name": "Elma tarçın",
+          "name": "Elma Tarçın",
           "description": null,
           "price": 140,
           "available": true,
@@ -1194,7 +1194,7 @@
         },
         {
           "id": "sicak-icecekler--yesil-cay",
-          "name": "Yeşil çay",
+          "name": "Yeşil Çay",
           "description": null,
           "price": 140,
           "available": true,
@@ -1211,8 +1211,8 @@
           "image": null
         },
         {
-          "id": "sicak-icecekler--sahlep",
-          "name": "Sahlep",
+          "id": "sicak-icecekler--salep",
+          "name": "Salep",
           "description": null,
           "price": 170,
           "available": true,
@@ -1320,7 +1320,7 @@
         },
         {
           "id": "turk-kahveleri--duble-sutlu-turk-kahvesi",
-          "name": "Duble Sütlü Türk kahvesi",
+          "name": "Duble Sütlü Türk Kahvesi",
           "description": null,
           "price": 150,
           "available": true,
@@ -1490,15 +1490,6 @@
           "image": null
         },
         {
-          "id": "sicak-kahveler--cold-brew",
-          "name": "Cold Brew",
-          "description": null,
-          "price": 180,
-          "available": true,
-          "tags": [],
-          "image": null
-        },
-        {
           "id": "sicak-kahveler--flat-white",
           "name": "Flat White",
           "description": null,
@@ -1620,6 +1611,15 @@
           "name": "Iced Caramel Latte",
           "description": null,
           "price": 200,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-kahveler--cold-brew",
+          "name": "Cold Brew",
+          "description": null,
+          "price": 180,
           "available": true,
           "tags": [],
           "image": null
@@ -1752,7 +1752,7 @@
         },
         {
           "id": "soguk-icecekler--portakal-suyu",
-          "name": "Portakal  Suyu",
+          "name": "Portakal Suyu",
           "description": null,
           "price": 100,
           "available": true,
@@ -1764,6 +1764,15 @@
           "name": "Churchill",
           "description": null,
           "price": 80,
+          "available": true,
+          "tags": [],
+          "image": null
+        },
+        {
+          "id": "soguk-icecekler--salgam",
+          "name": "Şalgam",
+          "description": null,
+          "price": 70,
           "available": true,
           "tags": [],
           "image": null
@@ -2024,7 +2033,7 @@
           "id": "frozenlar--tropical-frozen",
           "name": "Tropical Frozen",
           "description": null,
-          "price": 180,
+          "price": 200,
           "available": true,
           "tags": [],
           "image": null
@@ -2086,15 +2095,6 @@
         {
           "id": "frozenlar--seftali-frozen",
           "name": "Şeftali Frozen",
-          "description": null,
-          "price": 180,
-          "available": true,
-          "tags": [],
-          "image": null
-        },
-        {
-          "id": "frozenlar--ananas-frozen-kopya",
-          "name": "Ananas Frozen - Kopya",
           "description": null,
           "price": 180,
           "available": true,
